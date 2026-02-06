@@ -30,11 +30,12 @@ def init_components():
 
 db, query_gen, history = init_components()
 
+
 # Hero Section - BIGGER
 st.markdown("""
 <div style='text-align: center; padding: 3rem 0;'>
-    <h1 style='font-size: 5.5rem; margin-bottom: 20px;'>🤖 Your SQL AI Assistant</h1>
-    <p style='font-size: 2rem; color: #1C3FAA; font-weight: 600; opacity: 0.9;'>
+    <h1 style='font-size: 9rem; margin-bottom: 20px;color: #ff0000; '>🤖  Your SQL AI Assistant</h1>
+    <p style='font-size: 2rem;color: #1C3FAA; font-weight: 600; opacity: 0.9;'>
         Transform natural language into powerful SQL queries
     </p>
 </div>

@@ -68,5 +68,19 @@
     "sql_query": "SELECT T1.product_name, SUM(T2.total_amount) AS total_sales FROM products AS T1 INNER JOIN orders AS T2 ON T1.product_id = T2.product_id GROUP BY T1.product_name",
     "status": "SUCCESS",
     "results_count": 8
+  },
+  {
+    "timestamp": "2026-02-05 00:40:07",
+    "question": "Show me total sales for each product",
+    "sql_query": "SELECT T1.product_name, SUM(T2.total_amount) AS total_sales FROM products AS T1 JOIN orders AS T2 ON T1.product_id = T2.product_id GROUP BY T1.product_name",
+    "status": "SUCCESS",
+    "results_count": 8
+  },
+  {
+    "timestamp": "2026-02-06 17:10:32",
+    "question": "Show me total sales for each product",
+    "sql_query": "SELECT T1.product_name, SUM(T2.total_amount) AS total_sales FROM products AS T1 JOIN orders AS T2 ON T1.product_id = T2.product_id GROUP BY T1.product_name",
+    "status": "SUCCESS",
+    "results_count": 8
   }
 ]
